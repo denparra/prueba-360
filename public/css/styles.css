@@ -1,0 +1,73 @@
+/* styles.css */
+
+/* Tipografía General */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Navbar */
+.navbar-brand span {
+    color: #dc3545; /* Rojo de Bootstrap */
+}
+
+/* Tarjetas */
+.card {
+    border-radius: 15px;
+}
+
+/* Lista de Características */
+.list-unstyled li {
+    font-size: 1rem;
+}
+
+/* Botón de Contacto */
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+/* Footer */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsividad del Iframe */
+@media (max-width: 768px) {
+    iframe {
+        height: 300px;
+    }
+}
+
+/* Mejoras Adicionales */
+.card-body h2 {
+    font-size: 1.75rem;
+}
+
+.card-body h5 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #dc3545 !important;
+}
+
+/* Ajuste del Logo en Navbar */
+.navbar-brand img {
+    border-radius: 10%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
